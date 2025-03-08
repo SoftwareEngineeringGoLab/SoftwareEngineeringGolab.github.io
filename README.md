@@ -1,2 +1,2 @@
 # Lab1-Git
-A static frontend page, with authomatic deployment
+A static frontend page, with automatic deployment
