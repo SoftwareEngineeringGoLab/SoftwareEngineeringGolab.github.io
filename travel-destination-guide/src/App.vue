@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import SearchBar from './components/SearchBar.vue'
 </script>
 
 <template>
@@ -9,8 +10,9 @@ import Footer from './components/Footer.vue'
     <main>
       <h1>Welcome to the Travel Destination Guide</h1>
       <p>
-        This is a simple travel destination guide that helps you find the best places to visit around the world.
+        This is a simple travel destination guide that helps you find the best places to visit around the world. Try searching them now!
       </p>
+      <SearchBar />
     </main>
     <Footer />
   </div>
@@ -33,5 +35,6 @@ h1 {
 }
 p {
   font-size: 1.2rem;
+  text-align: justify;
 }
 </style>
