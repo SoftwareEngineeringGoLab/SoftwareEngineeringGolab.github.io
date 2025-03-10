@@ -78,8 +78,8 @@ const searchTerm = ref('')
 
 const filteredDestinations = computed(() => {
     return destinations.value.filter(destination =>
-        destination.city.toLowerCase().includes(searchTerm.value.toLowerCase()) ||
-        destination.country.toLowerCase().includes(searchTerm.value.toLowerCase()) ||
+        destination.city.toLowerCase().includes(searchTerm.value.toLowerCase()) 
+        destination.country.toLowerCase().includes(searchTerm.value.toLowerCase()) 
         destination.description.toLowerCase().includes(searchTerm.value.toLowerCase())
     )
 })
