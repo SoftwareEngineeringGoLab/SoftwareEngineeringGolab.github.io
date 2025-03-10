@@ -1,6 +1,6 @@
 <template>
   <section id="destinations">
-    <h2>Destinations</h2>
+<!--    <h2>Destinations</h2>-->
     <div class="destination-list">
       <DestinationItem v-for="destination in filteredDestinations" :key="destination.id" :destination="destination" />
     </div>
@@ -19,5 +19,13 @@ const { filteredDestinations } = useDestinations()
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 1rem;
 }
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 </style>
