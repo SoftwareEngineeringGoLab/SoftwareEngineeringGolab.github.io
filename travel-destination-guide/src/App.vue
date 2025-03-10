@@ -2,6 +2,8 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import SearchBar from './components/SearchBar.vue'
+import Destinations from './components/Destinations.vue'
+import Tips from "@/components/Tips.vue";
 </script>
 
 <template>
@@ -14,6 +16,8 @@ import SearchBar from './components/SearchBar.vue'
       </p>
       <SearchBar />
     </main>
+    <Destinations />
+    <Tips />
     <Footer />
   </div>
 </template>
@@ -35,6 +39,6 @@ h1 {
 }
 p {
   font-size: 1.2rem;
-  text-align: justify;
+  text-align: center;
 }
 </style>

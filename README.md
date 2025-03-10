@@ -1,5 +1,6 @@
 # Lab1-Git
 A static frontend page, with automatic deployment
+The most beautiful travel site in the world
 The page is hosted on GitHub Pages, and the deployment is done using GitHub Actions.
 
 # آزمایشگاه نرم‌افزار
