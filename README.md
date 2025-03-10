@@ -1,5 +1,6 @@
 # Lab1-Git
 A static frontend page, with automatic deployment
+The most beutifull trave site in the world
 The page is hosted on GitHub Pages, and the deployment is done using GitHub Actions.
 
 The app is aimed to be a Travel Destination Guide, with a list of destinations and a brief description of each one.
