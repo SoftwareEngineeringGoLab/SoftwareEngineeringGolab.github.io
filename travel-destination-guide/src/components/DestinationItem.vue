@@ -23,6 +23,8 @@ defineProps({
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 4px;
+  background-color: cornsilk;
+  color: #333;
 }
 
 h3 {

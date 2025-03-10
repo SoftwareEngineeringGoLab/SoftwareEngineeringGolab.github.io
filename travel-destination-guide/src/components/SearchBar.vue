@@ -1,6 +1,7 @@
 <template>
   <div class="search-bar">
-    <input type="text" v-model="searchTerm" placeholder="Search destinations" />
+    <input type="text" placeholder="Search for a destination, for example, Paris." />
+    <button>Search</button>
   </div>
 </template>
 
@@ -23,6 +24,6 @@ input {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 100%;
+  width: 80%;
 }
 </style>
