@@ -32,7 +32,7 @@ import Tips from "@/components/Tips.vue";
 
 main {
   flex: 1;
-  padding: 3rem 2rem;
+  padding: 2rem;
   text-align: center;
   background-color: #f0f8ff; /* Light background for contrast */
   width: 100%; /* Makes sure main spans the full width */

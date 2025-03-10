@@ -1,5 +1,3 @@
-<!--Simple tips for traveling!-->
-
 <template>
   <section id="tips">
     <h2>Travel Tips</h2>
