@@ -3,6 +3,7 @@ import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import SearchBar from './components/SearchBar.vue'
 import Destinations from './components/Destinations.vue'
+import Tips from "@/components/Tips.vue";
 </script>
 
 <template>
@@ -16,7 +17,7 @@ import Destinations from './components/Destinations.vue'
       <SearchBar />
     </main>
     <Destinations />
-
+    <Tips />
     <Footer />
   </div>
 </template>
